@@ -1,0 +1,20 @@
+h1 {color:darkcyan;}
+p {
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+p, h2{color:rgb(0, 102, 255);}
+/* this is agroup selector */
+/* my paragraph */
+P a {color:aquamarine;}
+/* descendeant selector */
+/* changing color of a tags inside of p tages*/ 
+
+#Welcome {
+    color:blueviolet;
+    text-decoration: none;
+    /* id selector only stlyes one element */
+
+}
