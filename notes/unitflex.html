@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {  border: 1px solid rgb(167, 20, 20);}
+        section{ display: flex;}
+        section div { flex: 1;} /*must be on the same column(s) */
+        .row1 { display: flex;}
+       .col { flex: 1; border: 1px solid rgb(167, 20, 20);}
+       .col2 { flex: 1/4; border: 1px solid rgb(167, 20, 20);}
+       .col3 { flex: 3/4; border: 1px solid rgb(167, 20, 20);}
+       .col4 { flex: 1/2; border: 1px solid rgb(167, 20, 20);}
+        .col5 { flex: 1/2; border: 1px solid rgb(167, 20, 20);}
+    
+    
+
+
+    </style>
+</head>
+<body>
+    <section> <!-- this is our flex box row -->
+   <div>1</div>
+ <div>2</div>
+ <div>3</div>
+    </section>
+
+<section class="row1">
+    <div class="col">1</div>
+</section>
+
+
+<section class="row2">
+    <div class="col2">1</div>
+    <div class="col3">2</div>
+</section>
+
+<section class="row3">
+    <div class="col4">4</div>
+    <div class="col5">5</div>
+</section>
+
+</body>
+</html>
