@@ -7,9 +7,14 @@
     <style>
       .quote { float: right; }
       .bio { max-width: 100%; height: auto;}
+      .navigation {
+         max-width: 100%;
+         display:inline;
+      }
      
    @media only screen and (max-width: 800px){
-      .bio {display:none}
+      .bio {display:inline;}
+      .navigation{ display:inline;}
    }
 
     </style>
@@ -21,11 +26,11 @@
 <h2>Personal Info</h2>
 <main>
 <body>
-   <nav>
+   <nav class="navigation">
     <tr>
-        <td><a href="index.html">Home</a> <span>|</span></td>
-       <td><a href="contact.html">Contact</a> <span>|</span></td>
-        <td><a href="skills.html">Skills</a><span>|</span></td>
+        <td><a href="index.html">Home</a> <span class="span1">|</span></td>
+       <td><a href="contact.html">Contact</a> <span class="span2">|</span></td>
+        <td><a href="skills.html">Skills</a><span class="span3">|</span></td>
     </tr>
  </nav>
  <p> 

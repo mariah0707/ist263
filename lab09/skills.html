@@ -6,6 +6,21 @@
     <title>Document</title>
 <style> 
     table, th, td {border: 1px solid black} 
+    .navigation {
+             max-width:100%;
+             display:inline; 
+        }
+        .span1 {display:inline;}
+        .span2 {display:inline;}
+        .span3 { display:inline;}
+
+         @media only screen and (max-width: 800px){
+        .navigation {display:inline}
+        .span1{ display:none;}
+        .span2{ display:none;}
+        .span3{ display:none;}
+         }
+
 </style>
 <link rel="stylesheet" href="style1.css">
 </head>
@@ -13,11 +28,11 @@
 <h1 class="special">Tables and Formats</h1>
 <h2> My favorite movies</h2>
 <body>
-     <nav >
+     <nav class="navigation">
     <tr>
-        <td><a href="index.html">Home</a> <span>|</span></td>
-       <td><a href="contact.html">Contact</a> <span>|</span></td>
-        <td><a href="skills.html">Skills</a><span>|</span></td>
+        <td><a href="index.html">Home</a> <span class="span1">|</span></td>
+       <td><a href="contact.html">Contact</a> <span class="span1">|</span></td>
+        <td><a href="skills.html">Skills</a><span class="span3">|</span></td>
     </tr>
  </nav>
     <table> 
