@@ -12,7 +12,7 @@ nav{padding: 20px}
 nav {margin-bottom: 30px}
 a{color:#f3f1f1}
  @media only screen and (max-width: 600px){ 
-    nav a{ display:inline;
+    nav a{ display:block;
     max-width: 100%;
  }
  span{ display:none;}
