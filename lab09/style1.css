@@ -11,4 +11,9 @@ nav a:hover{color:#607848}
 nav{padding: 20px}
 nav {margin-bottom: 30px}
 a{color:#f3f1f1}
-
+ @media only screen and (max-width: 826px){ 
+    nav a{ display:inline;
+    max-width: 100%;
+ }
+ span{ display:none;}
+}
